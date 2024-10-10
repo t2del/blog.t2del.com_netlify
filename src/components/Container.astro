@@ -1,0 +1,18 @@
+---
+const { className } = Astro.props;
+
+interface Props {
+  className: string;
+}
+---
+
+<div class={`content__container  ${className}`}>
+  <slot></slot>
+</div>
+
+<style>
+  	.project-details {
+      margin: 0 auto !important;
+      padding: 20px 20px;
+    }
+</style>

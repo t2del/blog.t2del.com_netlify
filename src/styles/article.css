@@ -1,0 +1,7 @@
+body.hide-hero-image article .hero-image{
+    display: none;
+}
+
+article h1 {
+    font-size: var(--font-size-md);
+}

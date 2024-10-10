@@ -1,0 +1,20 @@
+#search {
+    padding-top: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    z-index: 99999;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+
+#search .pagefind-ui {
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+#search .pagefind-ui .pagefind-ui__drawer {
+    padding: 10px 10px;
+}

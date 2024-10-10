@@ -1,0 +1,23 @@
+header.ac-modal-header {
+    position: relative !important;
+    z-index: -1;
+}
+
+.ac-modal .ac-modal-body {
+    margin: 0;
+    padding: 0 !important;
+}
+
+.ac-modal .ac-modal-body .description .scrollable {
+    width: 100%;
+    height: 400px;
+    overflow: auto;
+}
+
+.ac-modal .ac-modal-body .description .inner {
+    padding: 20px;
+}
+
+dialog.ac-modal[open] {
+    box-shadow: 5px 5px 10px 0px #00000040;
+}
