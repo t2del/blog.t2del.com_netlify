@@ -5,7 +5,7 @@ export const nav = [
 	},
 	{
 		title: 'Project',
-		slug: '/project/',
+		slug: 'https://t2del.com/project/',
   	},
 	  {
 		title: 'Blog',
@@ -13,11 +13,11 @@ export const nav = [
   	},
 	{
 		title: 'About',
-		slug: '/about/',
+		slug: 'https://t2del.com/about/',
   	},
 	  {
 		title: 'Contact',
-		slug: '/contact/',
+		slug: 'https://t2del.com/contact/',
   	},
   ];
 
