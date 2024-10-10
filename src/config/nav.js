@@ -1,7 +1,7 @@
 export const nav = [
 	{
 	  	title: 'Home',
-	  	slug: '/',
+	  	slug: 'https://t2del.com',
 	},
 	{
 		title: 'Project',
@@ -9,7 +9,7 @@ export const nav = [
   	},
 	  {
 		title: 'Blog',
-		slug: '/blog/',
+		slug: 'https://blog.t2del.com',
   	},
 	{
 		title: 'About',
