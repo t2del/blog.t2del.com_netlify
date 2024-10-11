@@ -5,3 +5,9 @@ body.hide-hero-image article .hero-image{
 article h1 {
     font-size: var(--font-size-md);
 }
+
+@media (max-width: 768px) {
+    video {
+        width: 100%;
+    }
+}

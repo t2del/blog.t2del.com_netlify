@@ -31,7 +31,7 @@ const blog = page.data;
 					{
 						blog.map((post) => ( 					
 							<li class="notshow fromtop">
-								<a href={`/blog/${post.slug}/`}>
+								<a href={`/${post.slug}/`}>
 									<img  src={post.data.heroImage} alt={post.data.imgalt} title={post.data.imgalt} />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
