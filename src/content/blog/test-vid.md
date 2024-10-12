@@ -17,7 +17,7 @@ customclass: "hide-hero-image"
 
 <br>
 <center>
-  <video width="800" height="400" controls>
+  <video width="800" height="400" controls preload="none" autoplay="false" poster="/blog/blog-placeholder-3.jpg">
     <source src="/video/test.mp4" type="video/mp4">
   </video>
 </center>

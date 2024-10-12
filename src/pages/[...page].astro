@@ -30,7 +30,7 @@ const blog = page.data;
 				<ul role="list" class="link-card-grid grid-3">
 					{
 						blog.map((post) => ( 					
-							<li class="notshow fromtop">
+							<li class="notshow fromtop" transition:animate="slide">
 								<a href={`/${post.slug}/`}>
 									<img  src={post.data.heroImage} alt={post.data.imgalt} title={post.data.imgalt} />
 									<h4 class="title">{post.data.title}</h4>

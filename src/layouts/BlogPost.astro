@@ -9,7 +9,7 @@ type Props = CollectionEntry<'blog'>['data'];
 const { title, pubDate, updatedDate, heroImage, imgalt } = Astro.props;
 
 ---
-<article>	
+<article transition:animate="slide">	
 	<Container className="container-blog">
 		<div class="prose">
 			<div class="title">
